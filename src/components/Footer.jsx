@@ -7,7 +7,7 @@ export default function Footer(
 ) {
   return (
     <footer>
-      <p>© 2025 Morfale</p>
+      <p>© 2025-2026 Chomp</p>
       <p>By Lisa Muracciole</p>
       <p>Using TheMealDB</p>
     </footer>

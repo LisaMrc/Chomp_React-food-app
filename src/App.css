@@ -1,14 +1,15 @@
 :root {
-  --morfale-red: #aa0000;
-  --morfale-blue: #09758b;
-  --morfale-yellow: #d3b037;
+  --chomp-red: #aa0000;
+  --chomp-blue: #09758b;
+  --chomp-yellow: #d3b037;
   --light-gray: #f3f4f6;
   --middle-gray: #c6c6c6;
 }
 
 @font-face {
   font-family: Quicksand;
-  src: local(Quicksand),
+  src:
+    local(Quicksand),
     url("/assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
 }
 
@@ -114,7 +115,9 @@ button {
   overflow-y: auto;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
 }
 
 .dropdown:hover .dropdown-content {
@@ -180,21 +183,20 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-    .ingredient-dropdown .dropdown-content {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.5rem;
-      width: 90vw;
-      padding: 0.5rem;
-    }
-  
-    .ingredient-dropdown .dropdown-content label {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      width: 100%;
-      white-space: nowrap;
-    }
+  .ingredient-dropdown .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 90vw;
+    padding: 0.5rem;
   }
-  
+
+  .ingredient-dropdown .dropdown-content label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    white-space: nowrap;
+  }
+}

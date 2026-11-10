@@ -40,7 +40,7 @@
 }
 
 .nav-item:hover {
-  color: var(--morfale-red);
+  color: var(--chomp-red);
 }
 
 @media (max-width: 768px) {

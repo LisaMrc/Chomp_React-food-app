@@ -8,7 +8,7 @@ export default function Navbar({}) {
         <a href="/">
           <img
             src="/assets/Icons/favicon.svg"
-            alt="Morfale Logo"
+            alt="Chomp Logo"
             className="logo"
           ></img>
         </a>

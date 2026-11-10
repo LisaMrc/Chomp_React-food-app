@@ -1,5 +1,5 @@
-# 🐺 Morfale
-Morfale est un site de cuisine où il est possible de filtrer toutes les recettes en fonction de leurs ingrédients, origine géographique et catégories. Utilisant les données de l’API TheMealsDB, mon but était de rendre le site le plus propre possible, à l’inverse de ceux qu’on trouve en ligne qui sont souvent remplis de couleurs, pop-ups et pubs. Pour cela, j’ai créé l’identité visuelle et le logo, puis codé le site en react.js. Ce template a vraiment été très pratique pour y incorporer plus facilement les éléments à la manière d’un puzzle. Il a aussi permis de coder un système de favoris en cache, qui permet de sauvegarder ses recettes favorites sans passer par le (souvent long) processus de créer un compte.
+# 🐺 Chomp
+Chomp est un site de cuisine où il est possible de filtrer toutes les recettes en fonction de leurs ingrédients, origine géographique et catégories. Utilisant les données de l’API TheMealsDB, mon but était de rendre le site le plus propre possible, à l’inverse de ceux qu’on trouve en ligne qui sont souvent remplis de couleurs, pop-ups et pubs. Pour cela, j’ai créé l’identité visuelle et le logo, puis codé le site en react.js. Ce template a vraiment été très pratique pour y incorporer plus facilement les éléments à la manière d’un puzzle. Il a aussi permis de coder un système de favoris en cache, qui permet de sauvegarder ses recettes favorites sans passer par le (souvent long) processus de créer un compte.
 
 
 ## 🛠️ Outils
@@ -8,7 +8,7 @@ Morfale est un site de cuisine où il est possible de filtrer toutes les recette
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
 ## ✨ Features
-Ce que vous pouvez faire sur Morfale.
+Ce que vous pouvez faire sur Chomp.
 
 - Lire des recettes
 - Rechercher et filtrer des recettes (les filtres et la recherche sont dynamiques et peuvent s'ajouter entre eux)

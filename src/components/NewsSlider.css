@@ -14,7 +14,7 @@ article {
 }
 
 .button-red {
-  background-color: var(--morfale-red);
+  background-color: var(--chomp-red);
   color: white;
   border: 0px;
   align-self: stretch;
@@ -26,20 +26,20 @@ article {
 }
 
 .button-red-inline {
-    background-color: white;
-    border: 1px solid var(--morfale-red);
-    padding: 0.8rem;
-    cursor: pointer;
-    color: var(--morfale-red);
-    border-radius: 0.5rem;
-    margin-top: 2vh;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    align-self: stretch;
-  }
+  background-color: white;
+  border: 1px solid var(--chomp-red);
+  padding: 0.8rem;
+  cursor: pointer;
+  color: var(--chomp-red);
+  border-radius: 0.5rem;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  align-self: stretch;
+}
 
 .button-blue {
-  background-color: var(--morfale-blue);
+  background-color: var(--chomp-blue);
   color: white;
   border: 0px;
   align-self: stretch;

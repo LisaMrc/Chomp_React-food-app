@@ -48,7 +48,7 @@
 }
 
 .timer-buttons button:last-child {
-  background-color: var(--morfale-red);
+  background-color: var(--chomp-red);
   color: white;
 }
 

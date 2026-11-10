@@ -36,9 +36,9 @@
   border: none;
   cursor: pointer;
   transition: color 0.3s;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .heart-button.favorited {
-  color: var(--morfale-red);
+  color: var(--chomp-red);
 }
