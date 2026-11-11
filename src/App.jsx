@@ -2,10 +2,10 @@ import "./App.css";
 import { useState, useMemo, useEffect } from "react";
 import MealsData from "./data/MealsData";
 import NewsSlider from "./components/NewsSlider";
-import MealCard from "./components/MealCard";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import MealGallery from "./components/MealGallery";
 
 function getStored(key, fallback) {
   try {
@@ -262,19 +262,11 @@ export default function App() {
         </div>
       </div>
 
-      <div id="meal-gallery">
-        {filteredMealsData.map((meal) => (
-          <MealCard
-            key={meal.idMeal}
-            idMeal={meal.idMeal}
-            strMeal={meal.strMeal}
-            strArea={meal.strArea}
-            strMealThumb={meal.strMealThumb}
-            isFavorite={favorites.includes(meal.idMeal)}
-            onToggleFavorite={toggleFavorite}
-          />
-        ))}
-      </div>
+      <MealGallery
+        meals={filteredMealsData}
+        favorites={favorites}
+        onToggleFavorite={toggleFavorite}
+      />
 
       <NewsSlider />
       <Footer />
